@@ -32,8 +32,6 @@
 </head>
 
 <body>
-
-
     <!-- TOP HEADER Start
     ================================================== -->
 
@@ -220,295 +218,268 @@
         <!-- /.container-fluid -->
     </nav>
     <!-- End of /.nav -->
-
-
-    <!-- SLIDER Start
+    <!-- Breadcrumbs Start
     ================================================== -->
 
-
-    <section id="slider-area">
+    <section id="topic-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div id="slider" class="nivoSlider">
-                        <img src="/assets/images/Promocion1.jpg" alt="" />
-                        <img src="assets/images/Promocion2.jpeg" alt="" />
-                        <img src="assets/images/Promocion3.jpeg" alt="" />
-                    </div>
-                    <!-- End of /.nivoslider -->
+                <div class="col-md-4">
+                    <h1>BLOG</h1>
+                    <p>Latest News</p>
                 </div>
-                <!-- End of /.col-md-12 -->
+                <!-- End of /.col-md-4 -->
+                <div class="col-md-8 hidden-xs">
+                    <ol class="breadcrumb pull-right">
+                        <li><a href="#">Home</a></li>
+                        <li class="active">Blog</li>
+                    </ol>
+                </div>
+                <!-- End of /.col-md-8 -->
             </div>
             <!-- End of /.row -->
         </div>
         <!-- End of /.container -->
     </section>
-    <!-- End of Section -->
+    <!-- End of /#Topic-header -->
 
 
-    <!-- CATAGORIE Start
-    ================================================== -->
-
-    <section id="catagorie">
+    <section id="blog">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="block">
-                        <div class="block-heading">
-                            <h2>Podría interesarte</h2>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-6 col-md-4">
-                                <div class="thumbnail">
-                                    <a class="catagotie-head" href="{{ route('productosDestacados') }}">
-                                        <img src="assets/images/Destacados.jpeg" alt="...">
-                                        <h3>Productos destacados</h3>
-                                    </a>
-                                    <div class="caption">
-                                        <p>Productos destacados entre nuestros compradores</p>
-                                        <p>
-                                            <a href="{{ route('productosDestacados') }}" class="btn btn-default btn-transparent" role="button">
-                                                <span>Ver más</span>
-                                            </a>
-                                        </p>
-                                    </div>
-                                    <!-- End of /.caption -->
-                                </div>
-                                <!-- End of /.thumbnail -->
+                <div class="col-md-9 clearfix">
+                    <ul class="blog-zone">
+                        <li>
+                            <div class="blog-icon">
+                                <i class="fa  fa-pencil"></i>
                             </div>
-                            <!-- End of /.col-sm-6 col-md-4 -->
-                            <div class="col-sm-6 col-md-4">
-                                <div class="thumbnail">
-                                    <a class="catagotie-head" href="{{ route('productosDeTemporada') }}">
-                                        <img src="assets/images/Temporada.jpeg" alt="...">
-                                        <h3>Artículos de temporada</h3>
+                            <div class="blog-box">
+                                <img src="assets/images/blog-1.jpg" alt="">
+
+                                <div class="blog-post-body clearfix">
+                                    <a href="blog-single.html">
+                                        <h2>Ricebean black-eyed pea</h2>
                                     </a>
-                                    <div class="caption">
-                                        <p>Articulos de temporada pa la calor</p>
-                                        <p>
-                                            <a href="{{ route('productosDeTemporada') }}" class="btn btn-default btn-transparent" role="button">
-                                                <span>Ver más</span>
-                                            </a>
-                                        </p>
+                                    <div class="blog-post-tag">
+                                        <div class="block">
+                                            <i class="fa fa-clock-o"></i>
+                                            <p>12 Jan,2014</p>
+                                        </div>
+                                        <div class="block">
+                                            <i class="fa fa-user"></i>
+                                            <p>Admin</p>
+                                        </div>
+                                        <div class="block">
+                                            <i class="fa fa-tags"></i>
+                                            <p>
+                                                <a href="">Food Culture</a>,
+                                                <a href="">Green Items</a>
+                                            </p>
+                                        </div>
+                                        <div class="block">
+                                            <i class="fa fa-comments"></i>
+                                            <p>3 Comments</p>
+                                        </div>
                                     </div>
-                                    <!-- End of /.caption -->
-                                </div>
-                                <!-- End of /.thumbnail -->
-                            </div>
-                            <!-- End of /.col-sm-6 col-md-4 -->
-                            <div class="col-sm-6 col-md-4">
-                                <div class="thumbnail">
-                                    <a class="catagotie-head" href="{{ route('envioADomicilio') }}">
-                                        <img src="assets/images/Domicilio.png" alt="...">
-                                        <h3>Envio a domicilio</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nostrum inventore debitis accusantium natus praesentium enim sequi culpa provident dignissimos veniam deserunt voluptatibus fugit delectus pariatur
+                                        numquam optio quidem illo. Obcaecati, placeat, enim accusantium sunt inventore sed dolorum molestiae ab consequuntur voluptatem dolor necessitatibus reprehenderit adipisci explicabo hic quibusdam pariatur!</p>
+                                    <a href="blog-single.html" class="btn btn-default btn-transparent pull-right" role="button">
+                                        <span>Read More</span>
                                     </a>
-                                    <div class="caption">
-                                        <p>Contamos con envio a domicilio :D</p>
-                                        <p>
-                                            <a href="{{ route('envioADomicilio') }}" class="btn btn-default btn-transparent" role="button">
-                                                <span>Ver más</span>
-                                            </a>
-                                        </p>
-                                    </div>
-                                    <!-- End of /.caption -->
                                 </div>
-                                <!-- End of /.thumbnail -->
                             </div>
-                            <!-- End of /.col-sm-6 col-md-4 -->
-                        </div>
-                        <!-- End of /.row -->
-                    </div>
-                    <!-- End of /.block -->
+                            <!-- End of /.blog-box -->
+                        </li>
+                        <li>
+                            <div class="blog-icon">
+                                <i class="fa  fa-video-camera"></i>
+                            </div>
+
+                            <!-- Youtube -->
+                            <div class="blog-box">
+                                <iframe src="http://www.youtube.com/embed/mcw6j-QWGMo" frameborder="0" allowfullscreen="" width="100%" height="400px"></iframe>
+
+                                <div class="blog-post-body clearfix">
+                                    <a href="blog-single.html">
+                                        <h2>Youtube Video Post Type Example</h2>
+                                    </a>
+                                    <div class="blog-post-tag">
+                                        <div class="block">
+                                            <i class="fa fa-clock-o"></i>
+                                            <p>12 Jan,2014</p>
+                                        </div>
+                                        <div class="block">
+                                            <i class="fa fa-user"></i>
+                                            <p>Admin</p>
+                                        </div>
+                                        <div class="block">
+                                            <i class="fa fa-tags"></i>
+                                            <p>
+                                                <a href="">Food Culture</a>,
+                                                <a href="">Green Items</a>
+                                            </p>
+                                        </div>
+                                        <div class="block">
+                                            <i class="fa fa-comments"></i>
+                                            <p>3 Comments</p>
+                                        </div>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nostrum inventore debitis accusantium natus praesentium enim sequi culpa provident dignissimos veniam deserunt voluptatibus fugit delectus pariatur
+                                        numquam optio quidem illo. Obcaecati, placeat, enim accusantium sunt inventore sed dolorum molestiae ab consequuntur voluptatem dolor necessitatibus reprehenderit adipisci explicabo hic quibusdam pariatur!</p>
+                                    <a href="blog-single.html" class="btn btn-default btn-transparent pull-right" role="button">
+                                        <span>Read More</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- End of /.blog-box -->
+                        </li>
+                        <li>
+                            <div class="blog-icon">
+                                <i class="fa fa-music"></i>
+                            </div>
+
+                            <!-- Sound Cloud -->
+                            <div class="blog-box">
+                                <iframe src="https://w.soundcloud.com/player/?url=https://soundcloud.com/haloproject/halo-scenes-from-the-four" frameborder="0" allowfullscreen="" width="100%" height="166"></iframe>
+
+                                <div class="blog-post-body clearfix">
+                                    <a href="blog-single.html">
+                                        <h2>Aduio Post Type Example</h2>
+                                    </a>
+                                    <div class="blog-post-tag">
+                                        <div class="block">
+                                            <i class="fa fa-clock-o"></i>
+                                            <p>12 Jan,2014</p>
+                                        </div>
+                                        <div class="block">
+                                            <i class="fa fa-user"></i>
+                                            <p>Admin</p>
+                                        </div>
+                                        <div class="block">
+                                            <i class="fa fa-tags"></i>
+                                            <p>
+                                                <a href="">Food Culture</a>,
+                                                <a href="">Green Items</a>
+                                            </p>
+                                        </div>
+                                        <div class="block">
+                                            <i class="fa fa-comments"></i>
+                                            <p>3 Comments</p>
+                                        </div>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nostrum inventore debitis accusantium natus praesentium enim sequi culpa provident dignissimos veniam deserunt voluptatibus fugit delectus pariatur
+                                        numquam optio quidem illo. Obcaecati, placeat, enim accusantium sunt inventore sed dolorum molestiae ab consequuntur voluptatem dolor necessitatibus reprehenderit adipisci explicabo hic quibusdam pariatur!</p>
+                                    <a href="blog-single.html" class="btn btn-default btn-transparent pull-right" role="button">
+                                        <span>Read More</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- End of /.blog-zone -->
+
+                    <!-- Pagination -->
+                    <ul class="pagination pull-right">
+                        <li class="disabled"><a href="#">&laquo;</a></li>
+                        <li class="active"><a href="#">1 <span class="sr-only"></span></a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">»</a></li>
+                    </ul>
+                    <!-- End of /.pagination -->
                 </div>
-                <!-- End of /.col-md-12 -->
-            </div>
-            <!-- End of /.row -->
-        </div>
-        <!-- End of /.container -->
-    </section>
-    <!-- End of Section -->
+                <!-- End of /.col-md-9 -->
 
-
-
-
-    <!-- PRODUCTS Start
->>>>>>> Stashed changes
-    ================================================== -->
-
-    <section id="products">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="products-heading">
-                        <h2>Aprovecha estas ofertas</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-md-3">
-                    <div class="products">
-                        <a href="single-product.html">
-                                <img src="{{$medi1->imagen}}" alt="">
-                            </a>
-                        <a href="single-product.html">
-                            <h4>{{$medi1->nombre}}</h4>
-                        </a>
-                        <p class="price"> $69.99</p>
-                        <a class="view-link shutter" href="#">
-                            <i class=""></i>Agregar al carrito</a>
+                    <div class="blog-sidebar">
+                        <div class="block">
+                            <h4>Catagories</h4>
+                            <div class="list-group">
+                                <a href="#" class="list-group-item">
+                                    <i class="fa  fa-dot-circle-o"></i> Italian Foods
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <i class="fa  fa-dot-circle-o"></i> Traditional Food
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <i class="fa  fa-dot-circle-o"></i> Indian Food
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <i class="fa  fa-dot-circle-o"></i> Spanish Food
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <i class="fa  fa-dot-circle-o"></i> Thai FoodN
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End of /.block -->
+                        <div class="block">
+                            <h4>Popular Posts</h4>
+                            <ul class="media-list">
+                                <li class="media">
+                                    <a class="pull-left" href="#">
+                                        <img class="media-object" src="assets/images/post-img.png" alt="...">
+                                    </a>
+                                    <div class="media-body">
+                                        <a href="" class="media-heading">
+                                            Lorem ipsum dolor</a>
+                                        <p>January 10,2014</p>
+                                    </div>
+                                </li>
+                                <!-- End of /.media -->
+                                <li class="media">
+                                    <a class="pull-left" href="#">
+                                        <img class="media-object" src="assets/images/post-img-2.png" alt="...">
+                                    </a>
+                                    <div class="media-body">
+                                        <a href="" class="media-heading">
+                                            Mauris blandit aliquet</a>
+                                        <p>January 10,2014</p>
+                                    </div>
+                                </li>
+                                <!-- End of /.media -->
+                                <li class="media">
+                                    <a class="pull-left" href="#">
+                                        <img class="media-object" src="assets/images/post-img-3.png" alt="...">
+                                    </a>
+                                    <div class="media-body">
+                                        <a href="" class="media-heading">
+                                            Quisque velit nisi</a>
+                                        <p>January 10,2014</p>
+                                    </div>
+                                </li>
+                                <!-- End of /.media -->
+                            </ul>
+                            <!-- End of /.media-list -->
+                        </div>
+                        <!-- End of /.block -->
+
+                        <div class="block">
+                            <h4>Tag Cloud</h4>
+                            <div class="tag-link">
+                                <a href="">BALLET</a>
+                                <a href="">BLOG</a>
+                                <a href="">CHRISTMAS</a>
+                                <a href="">ELEGANCE</a>
+                                <a href="">ELEGANT</a>
+                                <a href="">SHOPPING</a>
+                                <a href="">SHOP</a>
+                                <a href="">PHOTOGRAPHY</a>
+                            </div>
+                        </div>
+                        <!-- End of /.block -->
+
                     </div>
-                    <!-- End of /.products -->
+                    <!-- End of /.blog-sidebar -->
                 </div>
                 <!-- End of /.col-md-3 -->
-                <div class="col-md-3">
-                    <div class="products">
-                        <a href="single-product.html">
-                                <img src="{{$medi2->imagen}}" alt="">
-                            </a>
-                        <a href="single-product.html">
-                            <h4>{{$medi2->nombre}}</h4>
-                        </a>
-                        <p class="price"> $69.99</p>
-                        <a class="view-link shutter" href="#">
-                            <i class=""></i>Agregar al carrito</a>
-                    </div>
-                    <!-- End of /.products -->
-                </div>
-                <!-- End Of Col-md-3 -->
-                <div class="col-md-3">
-                    <div class="products">
-                        <a href="single-product.html">
-                                <img src="{{$medi3->imagen}}" alt="">
-                            </a>
-                        <a href="single-product.html">
-                            <h4>{{$medi3->nombre}}</h4>
-                        </a>
-                        <p class="price"> $69.99</p>
-                        <a class="view-link shutter" href="#">
-                            <i class=""></i>Agregar al carrito</a>
-                    </div>
-                    <!-- End of /.products -->
-                </div>
-                <!-- End Of /.Col-md-3 -->
-                <div class="col-md-3">
-                    <div class="products">
-                        <a href="single-product.html">
-                                <img src="{{$medi4->imagen}}" alt="">
-                            </a>
-                        <a href="single-product.html">
-                            <h4>{{$medi4->nombre}}</h4>
-                        </a>
-                        <p class="price"> $69.99</p>
-                        <a class="view-link shutter" href="#">
-                            <i class=""></i>Agregar al carrito</a>
-                    </div>
-                    <!-- End of /.products -->
-                </div>
-                <!-- End Of /.Col-md-3 -->
-                <div class="col-md-3">
-                    <div class="products">
-                        <a href="single-product.html">
-                                <img src="{{$medi5->imagen}}" alt="">
-                            </a>
-                        <a href="single-product.html">
-                            <h4>{{$medi5->nombre}}</h4>
-                        </a>
-                        <p class="price"> $69.99</p>
-                        <a class="view-link shutter" href="#">
-                            <i class=""></i>Agregar al carrito</a>
-                    </div>
-                    <!-- End of /.products -->
-                </div>
-                <!-- End Of /.Col-md-3 -->
-                <div class="col-md-3">
-                    <div class="products">
-                        <a href="single-product.html">
-                                <img src="{{$medi6->imagen}}" alt="">
-                            </a>
-                        <a href="single-product.html">
-                            <h4>{{$medi6->nombre}}</h4>
-                        </a>
-                        <p class="price"> $69.99</p>
-                        <a class="view-link shutter" href="#">
-                            <i class=""></i>Agregar al carrito</a>
-                    </div>
-                    <!-- End of /.products -->
-                </div>
-                <!-- End Of /.Col-md-3 -->
-                <div class="col-md-3">
-                    <div class="products">
-                        <a href="single-product.html">
-                                <img src="{{$medi7->imagen}}" alt="">
-                            </a>
-                        <a href="single-product.html">
-                            <h4>{{$medi7->nombre}}</h4>
-                        </a>
-                        <p class="price"> $69.99</p>
-                        <a class="view-link shutter" href="#">
-                            <i class=""></i>Agregar al carrito</a>
-                    </div>
-                    <!-- End of /.products -->
-                </div>
-                <!-- End Of /.Col-md-3 -->
-                <div class="col-md-3">
-                    <div class="products">
-                        <a href="single-product.html">
-                                <img src="{{$medi8->imagen}}" alt="">
-                            </a>
-                        <a href="single-product.html">
-                            <h4>{{$medi8->nombre}}</h4>
-                        </a>
-                        <p class="price"> $69.99</p>
-                        <div>
-                            <a class="view-link shutter" href="#">
-                                <i class=""></i>Agregar al carrito</a>
-                        </div>
-                    </div>
-                    <!-- End of /.products -->
-                </div>
-                <!-- End Of /.Col-md-3 -->
             </div>
             <!-- End of /.row -->
         </div>
         <!-- End of /.container -->
     </section>
-    <!-- End of Section -->
-
-
-
-
-    <!-- CALL TO ACTION Start
-    ================================================== -->
-
-    <section id="call-to-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block">
-                        <div class="block-heading">
-                            <h2>Los mejores productos</h2>
-                        </div>
-                    </div>
-                    <!-- End of /.block -->
-                    <div id="owl-example" class="owl-carousel">
-                        <div> <img src="assets/images/company-1.png" alt=""></div>
-                        <div> <img src="assets/images/company-2.png" alt=""></div>
-                        <div> <img src="assets/images/company-3.png" alt=""></div>
-                        <div> <img src="assets/images/company-4.png" alt=""></div>
-                        <div> <img src="assets/images/company-5.png" alt=""></div>
-                        <div> <img src="assets/images/company-6.png" alt=""></div>
-                        <div> <img src="assets/images/company-8.png" alt=""></div>
-                        <div> <img src="assets/images/company-9.png" alt=""></div>
-                    </div>
-                    <!-- End of /.Owl-Slider -->
-                </div>
-                <!-- End of /.col-md-12 -->
-            </div>
-            <!-- End Of /.Row -->
-        </div>
-        <!-- End Of /.Container -->
-    </section>
-    <!-- End of Section -->
+    <!-- End of /#Blog -->
 
 
     <!-- FOOTER Start

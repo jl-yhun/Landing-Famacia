@@ -222,295 +222,230 @@
     <!-- End of /.nav -->
 
 
-    <!-- SLIDER Start
-    ================================================== -->
-
-
-    <section id="slider-area">
+    <section id="topic-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div id="slider" class="nivoSlider">
-                        <img src="/assets/images/Promocion1.jpg" alt="" />
-                        <img src="assets/images/Promocion2.jpeg" alt="" />
-                        <img src="assets/images/Promocion3.jpeg" alt="" />
-                    </div>
-                    <!-- End of /.nivoslider -->
+                <div class="col-md-4">
+                    <h1>EN OFERTA</h1>
+                    <p>A Bunch Of Products</p>
                 </div>
-                <!-- End of /.col-md-12 -->
+                <!-- End of /.col-md-4 -->
+                <div class="col-md-8 hidden-xs">
+                    <ol class="breadcrumb pull-right">
+                        <li><a href="#">Home</a></li>
+                        <li class="active">Shop</li>
+                    </ol>
+                </div>
+                <!-- End of /.col-md-8 -->
             </div>
             <!-- End of /.row -->
         </div>
         <!-- End of /.container -->
     </section>
-    <!-- End of Section -->
-
-
-    <!-- CATAGORIE Start
-    ================================================== -->
-
-    <section id="catagorie">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block">
-                        <div class="block-heading">
-                            <h2>Podría interesarte</h2>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-6 col-md-4">
-                                <div class="thumbnail">
-                                    <a class="catagotie-head" href="{{ route('productosDestacados') }}">
-                                        <img src="assets/images/Destacados.jpeg" alt="...">
-                                        <h3>Productos destacados</h3>
-                                    </a>
-                                    <div class="caption">
-                                        <p>Productos destacados entre nuestros compradores</p>
-                                        <p>
-                                            <a href="{{ route('productosDestacados') }}" class="btn btn-default btn-transparent" role="button">
-                                                <span>Ver más</span>
-                                            </a>
-                                        </p>
-                                    </div>
-                                    <!-- End of /.caption -->
-                                </div>
-                                <!-- End of /.thumbnail -->
-                            </div>
-                            <!-- End of /.col-sm-6 col-md-4 -->
-                            <div class="col-sm-6 col-md-4">
-                                <div class="thumbnail">
-                                    <a class="catagotie-head" href="{{ route('productosDeTemporada') }}">
-                                        <img src="assets/images/Temporada.jpeg" alt="...">
-                                        <h3>Artículos de temporada</h3>
-                                    </a>
-                                    <div class="caption">
-                                        <p>Articulos de temporada pa la calor</p>
-                                        <p>
-                                            <a href="{{ route('productosDeTemporada') }}" class="btn btn-default btn-transparent" role="button">
-                                                <span>Ver más</span>
-                                            </a>
-                                        </p>
-                                    </div>
-                                    <!-- End of /.caption -->
-                                </div>
-                                <!-- End of /.thumbnail -->
-                            </div>
-                            <!-- End of /.col-sm-6 col-md-4 -->
-                            <div class="col-sm-6 col-md-4">
-                                <div class="thumbnail">
-                                    <a class="catagotie-head" href="{{ route('envioADomicilio') }}">
-                                        <img src="assets/images/Domicilio.png" alt="...">
-                                        <h3>Envio a domicilio</h3>
-                                    </a>
-                                    <div class="caption">
-                                        <p>Contamos con envio a domicilio :D</p>
-                                        <p>
-                                            <a href="{{ route('envioADomicilio') }}" class="btn btn-default btn-transparent" role="button">
-                                                <span>Ver más</span>
-                                            </a>
-                                        </p>
-                                    </div>
-                                    <!-- End of /.caption -->
-                                </div>
-                                <!-- End of /.thumbnail -->
-                            </div>
-                            <!-- End of /.col-sm-6 col-md-4 -->
-                        </div>
-                        <!-- End of /.row -->
-                    </div>
-                    <!-- End of /.block -->
-                </div>
-                <!-- End of /.col-md-12 -->
-            </div>
-            <!-- End of /.row -->
-        </div>
-        <!-- End of /.container -->
-    </section>
-    <!-- End of Section -->
-
+    <!-- End of /#Topic-header -->
 
 
 
     <!-- PRODUCTS Start
->>>>>>> Stashed changes
     ================================================== -->
 
-    <section id="products">
+    <section id="shop">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-9">
                     <div class="products-heading">
-                        <h2>Aprovecha estas ofertas</h2>
+                        <h2>NEW PRODUCTS</h2>
+                    </div>
+                    <!-- End of /.Products-heading -->
+                    <div class="product-grid">
+                        <ul>
+                            <li>
+                                <div class="products">
+                                    <a href="#">
+                                        <img src="{{$medi1->imagen}}" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <h4>{{$medi1->nombre}}</h4>
+                                    </a>
+                                    <p class="price">From: £69.99</p>
+                                    <div>
+                                        <a class="view-link shutter" href="#">
+                                            <i class="fa fa-plus-circle"></i>Add To Cart</a>
+                                    </div>
+                                </div>
+                                <!-- End of /.products -->
+                            </li>
+                            <li>
+                                <div class="products">
+                                    <a href="#">
+                                        <img src="{{$medi2->imagen}}" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <h4>{{$medi2->nombre}}</h4>
+                                    </a>
+                                    <p class="price">From: £69.99</p>
+                                    <div>
+                                        <a class="view-link shutter" href="#">
+                                            <i class="fa fa-plus-circle"></i>Add To Cart</a>
+                                    </div>
+                                </div>
+                                <!-- End of /.products -->
+                            </li>
+                            <li>
+                                <div class="products">
+                                    <a href="#">
+                                        <img src="{{$medi3->imagen}}" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <h4>{{$medi3->nombre}}</h4>
+                                    </a>
+                                    <p class="price">From: £69.99</p>
+                                    <div>
+                                        <a class="view-link shutter" href="#">
+                                            <i class="fa fa-plus-circle"></i>Add To Cart</a>
+                                    </div>
+                                </div>
+                                <!-- End of /.products -->
+                            </li>
+                            <li>
+                                <div class="products">
+                                    <a href="#">
+                                        <img src="{{$medi4->imagen}}" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <h4>{{$medi4->nombre}}</h4>
+                                    </a>
+                                    <p class="price">From: £69.99</p>
+                                    <div>
+                                        <a class="view-link shutter" href="#">
+                                            <i class="fa fa-plus-circle"></i>Add To Cart</a>
+                                    </div>
+                                </div>
+                                <!-- End of /.products -->
+                            </li>
+                            <li>
+                                <div class="products">
+                                    <a href="#">
+                                        <img src="{{$medi5->imagen}}" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <h4>{{$medi5->nombre}}</h4>
+                                    </a>
+                                    <p class="price">From: £69.99</p>
+                                    <div>
+                                        <a class="view-link shutter" href="#">
+                                            <i class="fa fa-plus-circle"></i>Add To Cart</a>
+                                    </div>
+                                </div>
+                                <!-- End of /.products -->
+                            </li>
+                            <li>
+                                <div class="products">
+                                    <a href="#">
+                                        <img src="{{$medi6->imagen}}" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <h4>{{$medi6->nombre}}</h4>
+                                    </a>
+                                    <p class="price">From: £69.99</p>
+                                    <div>
+                                        <a class="view-link shutter" href="#">
+                                            <i class="fa fa-plus-circle"></i>Add To Cart</a>
+                                    </div>
+                                </div>
+                                <!-- End of /.products -->
+                            </li>
+                            <!--  ... -->
+                        </ul>
+                    </div>
+                    <!-- End of /.products-grid -->
+
+                    <!-- Pagination -->
+
+                    <div class="pagination-bottom">
+                        <ul class="pagination">
+                            <li class="disabled"><a href="#">&laquo;</a></li>
+                            <li class="active"><a href="#">1 <span class="sr-only"></span></a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">»</a></li>
+                        </ul>
+                        <!-- End of /.pagination -->
                     </div>
                 </div>
-            </div>
-            <div class="row">
+                <!-- End of /.col-md-9 -->
                 <div class="col-md-3">
-                    <div class="products">
-                        <a href="single-product.html">
-                                <img src="{{$medi1->imagen}}" alt="">
-                            </a>
-                        <a href="single-product.html">
-                            <h4>{{$medi1->nombre}}</h4>
-                        </a>
-                        <p class="price"> $69.99</p>
-                        <a class="view-link shutter" href="#">
-                            <i class=""></i>Agregar al carrito</a>
-                    </div>
-                    <!-- End of /.products -->
-                </div>
-                <!-- End of /.col-md-3 -->
-                <div class="col-md-3">
-                    <div class="products">
-                        <a href="single-product.html">
-                                <img src="{{$medi2->imagen}}" alt="">
-                            </a>
-                        <a href="single-product.html">
-                            <h4>{{$medi2->nombre}}</h4>
-                        </a>
-                        <p class="price"> $69.99</p>
-                        <a class="view-link shutter" href="#">
-                            <i class=""></i>Agregar al carrito</a>
-                    </div>
-                    <!-- End of /.products -->
-                </div>
-                <!-- End Of Col-md-3 -->
-                <div class="col-md-3">
-                    <div class="products">
-                        <a href="single-product.html">
-                                <img src="{{$medi3->imagen}}" alt="">
-                            </a>
-                        <a href="single-product.html">
-                            <h4>{{$medi3->nombre}}</h4>
-                        </a>
-                        <p class="price"> $69.99</p>
-                        <a class="view-link shutter" href="#">
-                            <i class=""></i>Agregar al carrito</a>
-                    </div>
-                    <!-- End of /.products -->
-                </div>
-                <!-- End Of /.Col-md-3 -->
-                <div class="col-md-3">
-                    <div class="products">
-                        <a href="single-product.html">
-                                <img src="{{$medi4->imagen}}" alt="">
-                            </a>
-                        <a href="single-product.html">
-                            <h4>{{$medi4->nombre}}</h4>
-                        </a>
-                        <p class="price"> $69.99</p>
-                        <a class="view-link shutter" href="#">
-                            <i class=""></i>Agregar al carrito</a>
-                    </div>
-                    <!-- End of /.products -->
-                </div>
-                <!-- End Of /.Col-md-3 -->
-                <div class="col-md-3">
-                    <div class="products">
-                        <a href="single-product.html">
-                                <img src="{{$medi5->imagen}}" alt="">
-                            </a>
-                        <a href="single-product.html">
-                            <h4>{{$medi5->nombre}}</h4>
-                        </a>
-                        <p class="price"> $69.99</p>
-                        <a class="view-link shutter" href="#">
-                            <i class=""></i>Agregar al carrito</a>
-                    </div>
-                    <!-- End of /.products -->
-                </div>
-                <!-- End Of /.Col-md-3 -->
-                <div class="col-md-3">
-                    <div class="products">
-                        <a href="single-product.html">
-                                <img src="{{$medi6->imagen}}" alt="">
-                            </a>
-                        <a href="single-product.html">
-                            <h4>{{$medi6->nombre}}</h4>
-                        </a>
-                        <p class="price"> $69.99</p>
-                        <a class="view-link shutter" href="#">
-                            <i class=""></i>Agregar al carrito</a>
-                    </div>
-                    <!-- End of /.products -->
-                </div>
-                <!-- End Of /.Col-md-3 -->
-                <div class="col-md-3">
-                    <div class="products">
-                        <a href="single-product.html">
-                                <img src="{{$medi7->imagen}}" alt="">
-                            </a>
-                        <a href="single-product.html">
-                            <h4>{{$medi7->nombre}}</h4>
-                        </a>
-                        <p class="price"> $69.99</p>
-                        <a class="view-link shutter" href="#">
-                            <i class=""></i>Agregar al carrito</a>
-                    </div>
-                    <!-- End of /.products -->
-                </div>
-                <!-- End Of /.Col-md-3 -->
-                <div class="col-md-3">
-                    <div class="products">
-                        <a href="single-product.html">
-                                <img src="{{$medi8->imagen}}" alt="">
-                            </a>
-                        <a href="single-product.html">
-                            <h4>{{$medi8->nombre}}</h4>
-                        </a>
-                        <p class="price"> $69.99</p>
-                        <div>
-                            <a class="view-link shutter" href="#">
-                                <i class=""></i>Agregar al carrito</a>
+                    <div class="blog-sidebar">
+                        <div class="block">
+                            <h4>Catagories</h4>
+                            <div class="list-group">
+                                <a href="#" class="list-group-item">
+                                    <i class="fa  fa-dot-circle-o"></i> Italian Foods
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <i class="fa  fa-dot-circle-o"></i> Traditional Food
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <i class="fa  fa-dot-circle-o"></i> Indian Food
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <i class="fa  fa-dot-circle-o"></i> Spanish Food
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <i class="fa  fa-dot-circle-o"></i> Thai FoodN
+                                </a>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <img src="images/food-ad.png" alt="">
+                        </div>
+                        <div class="block">
+                            <h4>OTRAS OFERTAS</h4>
+                            <ul class="media-list">
+                                <li class="media">
+                                    <a class="pull-left" href="#">
+                                        <img class="media-object" src="{{$medi7->imagen}}" alt="...">
+                                    </a>
+                                    <div class="media-body">
+                                        <a href="" class="media-heading">{{$medi7->nombre}}
+                                            <p></p>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="media">
+                                    <a class="pull-left" href="#">
+                                        <img class="media-object" src="{{$medi8->imagen}}" alt="...">
+                                    </a>
+                                    <div class="media-body">
+                                        <a href="" class="media-heading">{{$medi8->nombre}}
+                                            <p></p>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="block">
+                            <h4>Food Tag</h4>
+                            <div class="tag-link">
+                                <a href="">BALLET</a>
+                                <a href="">CHRISTMAS</a>
+                                <a href="">ELEGANCE</a>
+                                <a href="">ELEGANT</a>
+                                <a href="">SHOPPING</a>
+                                <a href="">SHOP</a>
+                            </div>
                         </div>
                     </div>
-                    <!-- End of /.products -->
+                    <!-- End of /.col-md-3 -->
+
                 </div>
-                <!-- End Of /.Col-md-3 -->
+                <!-- End of /.row -->
             </div>
-            <!-- End of /.row -->
-        </div>
-        <!-- End of /.container -->
+            <!-- End of /.container -->
     </section>
-    <!-- End of Section -->
-
-
-
-
-    <!-- CALL TO ACTION Start
-    ================================================== -->
-
-    <section id="call-to-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block">
-                        <div class="block-heading">
-                            <h2>Los mejores productos</h2>
-                        </div>
-                    </div>
-                    <!-- End of /.block -->
-                    <div id="owl-example" class="owl-carousel">
-                        <div> <img src="assets/images/company-1.png" alt=""></div>
-                        <div> <img src="assets/images/company-2.png" alt=""></div>
-                        <div> <img src="assets/images/company-3.png" alt=""></div>
-                        <div> <img src="assets/images/company-4.png" alt=""></div>
-                        <div> <img src="assets/images/company-5.png" alt=""></div>
-                        <div> <img src="assets/images/company-6.png" alt=""></div>
-                        <div> <img src="assets/images/company-8.png" alt=""></div>
-                        <div> <img src="assets/images/company-9.png" alt=""></div>
-                    </div>
-                    <!-- End of /.Owl-Slider -->
-                </div>
-                <!-- End of /.col-md-12 -->
-            </div>
-            <!-- End Of /.Row -->
-        </div>
-        <!-- End Of /.Container -->
-    </section>
-    <!-- End of Section -->
-
-
+    <!-- End of Section --
     <!-- FOOTER Start
     ================================================== -->
 

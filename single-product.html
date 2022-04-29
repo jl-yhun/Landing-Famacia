@@ -222,294 +222,252 @@
     <!-- End of /.nav -->
 
 
-    <!-- SLIDER Start
+    <!-- TOP HEADER Start
     ================================================== -->
 
-
-    <section id="slider-area">
+    <section id="top">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div id="slider" class="nivoSlider">
-                        <img src="/assets/images/Promocion1.jpg" alt="" />
-                        <img src="assets/images/Promocion2.jpeg" alt="" />
-                        <img src="assets/images/Promocion3.jpeg" alt="" />
-                    </div>
-                    <!-- End of /.nivoslider -->
+                <div class="col-md-7">
+                    <p class="contact-action"><i class="fa fa-phone-square"></i>IN CASE OF ANY QUESTIONS, CALL THIS NUMBER: <strong>+565 975 658</strong></p>
                 </div>
-                <!-- End of /.col-md-12 -->
-            </div>
-            <!-- End of /.row -->
-        </div>
-        <!-- End of /.container -->
-    </section>
-    <!-- End of Section -->
-
-
-    <!-- CATAGORIE Start
-    ================================================== -->
-
-    <section id="catagorie">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block">
-                        <div class="block-heading">
-                            <h2>Podría interesarte</h2>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-6 col-md-4">
-                                <div class="thumbnail">
-                                    <a class="catagotie-head" href="{{ route('productosDestacados') }}">
-                                        <img src="assets/images/Destacados.jpeg" alt="...">
-                                        <h3>Productos destacados</h3>
-                                    </a>
-                                    <div class="caption">
-                                        <p>Productos destacados entre nuestros compradores</p>
-                                        <p>
-                                            <a href="{{ route('productosDestacados') }}" class="btn btn-default btn-transparent" role="button">
-                                                <span>Ver más</span>
-                                            </a>
-                                        </p>
-                                    </div>
-                                    <!-- End of /.caption -->
+                <div class="col-md-3 clearfix">
+                    <ul class="login-cart">
+                        <li>
+                            <a data-toggle="modal" data-target="#myModal" href="#">
+                                <i class="fa fa-user"></i> Login
+                            </a>
+                        </li>
+                        <li>
+                            <div class="cart dropdown">
+                                <a data-toggle="dropdown" href="#"><i class="fa fa-shopping-cart"></i>Cart(1)</a>
+                                <div class="dropdown-menu dropup">
+                                    <span class="caret"></span>
+                                    <ul class="media-list">
+                                        <li class="media">
+                                            <img class="pull-left" src="images/product-item.jpg" alt="">
+                                            <div class="media-body">
+                                                <h6>Italian Sauce
+                                                    <span>$250</span>
+                                                </h6>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-sm">Checkout</button>
                                 </div>
-                                <!-- End of /.thumbnail -->
                             </div>
-                            <!-- End of /.col-sm-6 col-md-4 -->
-                            <div class="col-sm-6 col-md-4">
-                                <div class="thumbnail">
-                                    <a class="catagotie-head" href="{{ route('productosDeTemporada') }}">
-                                        <img src="assets/images/Temporada.jpeg" alt="...">
-                                        <h3>Artículos de temporada</h3>
-                                    </a>
-                                    <div class="caption">
-                                        <p>Articulos de temporada pa la calor</p>
-                                        <p>
-                                            <a href="{{ route('productosDeTemporada') }}" class="btn btn-default btn-transparent" role="button">
-                                                <span>Ver más</span>
-                                            </a>
-                                        </p>
-                                    </div>
-                                    <!-- End of /.caption -->
-                                </div>
-                                <!-- End of /.thumbnail -->
-                            </div>
-                            <!-- End of /.col-sm-6 col-md-4 -->
-                            <div class="col-sm-6 col-md-4">
-                                <div class="thumbnail">
-                                    <a class="catagotie-head" href="{{ route('envioADomicilio') }}">
-                                        <img src="assets/images/Domicilio.png" alt="...">
-                                        <h3>Envio a domicilio</h3>
-                                    </a>
-                                    <div class="caption">
-                                        <p>Contamos con envio a domicilio :D</p>
-                                        <p>
-                                            <a href="{{ route('envioADomicilio') }}" class="btn btn-default btn-transparent" role="button">
-                                                <span>Ver más</span>
-                                            </a>
-                                        </p>
-                                    </div>
-                                    <!-- End of /.caption -->
-                                </div>
-                                <!-- End of /.thumbnail -->
-                            </div>
-                            <!-- End of /.col-sm-6 col-md-4 -->
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <div class="search-box">
+                        <div class="input-group">
+                            <input placeholder="Search Here" type="text" class="form-control">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button"></button>
+                            </span>
                         </div>
-                        <!-- End of /.row -->
+                        <!-- /.input-group -->
                     </div>
-                    <!-- End of /.block -->
-                </div>
-                <!-- End of /.col-md-12 -->
-            </div>
-            <!-- End of /.row -->
-        </div>
-        <!-- End of /.container -->
-    </section>
-    <!-- End of Section -->
-
-
-
-
-    <!-- PRODUCTS Start
->>>>>>> Stashed changes
-    ================================================== -->
-
-    <section id="products">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="products-heading">
-                        <h2>Aprovecha estas ofertas</h2>
-                    </div>
+                    <!-- /.search-box -->
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="products">
-                        <a href="single-product.html">
-                                <img src="{{$medi1->imagen}}" alt="">
-                            </a>
-                        <a href="single-product.html">
-                            <h4>{{$medi1->nombre}}</h4>
-                        </a>
-                        <p class="price"> $69.99</p>
-                        <a class="view-link shutter" href="#">
-                            <i class=""></i>Agregar al carrito</a>
-                    </div>
-                    <!-- End of /.products -->
-                </div>
-                <!-- End of /.col-md-3 -->
-                <div class="col-md-3">
-                    <div class="products">
-                        <a href="single-product.html">
-                                <img src="{{$medi2->imagen}}" alt="">
-                            </a>
-                        <a href="single-product.html">
-                            <h4>{{$medi2->nombre}}</h4>
-                        </a>
-                        <p class="price"> $69.99</p>
-                        <a class="view-link shutter" href="#">
-                            <i class=""></i>Agregar al carrito</a>
-                    </div>
-                    <!-- End of /.products -->
-                </div>
-                <!-- End Of Col-md-3 -->
-                <div class="col-md-3">
-                    <div class="products">
-                        <a href="single-product.html">
-                                <img src="{{$medi3->imagen}}" alt="">
-                            </a>
-                        <a href="single-product.html">
-                            <h4>{{$medi3->nombre}}</h4>
-                        </a>
-                        <p class="price"> $69.99</p>
-                        <a class="view-link shutter" href="#">
-                            <i class=""></i>Agregar al carrito</a>
-                    </div>
-                    <!-- End of /.products -->
-                </div>
-                <!-- End Of /.Col-md-3 -->
-                <div class="col-md-3">
-                    <div class="products">
-                        <a href="single-product.html">
-                                <img src="{{$medi4->imagen}}" alt="">
-                            </a>
-                        <a href="single-product.html">
-                            <h4>{{$medi4->nombre}}</h4>
-                        </a>
-                        <p class="price"> $69.99</p>
-                        <a class="view-link shutter" href="#">
-                            <i class=""></i>Agregar al carrito</a>
-                    </div>
-                    <!-- End of /.products -->
-                </div>
-                <!-- End Of /.Col-md-3 -->
-                <div class="col-md-3">
-                    <div class="products">
-                        <a href="single-product.html">
-                                <img src="{{$medi5->imagen}}" alt="">
-                            </a>
-                        <a href="single-product.html">
-                            <h4>{{$medi5->nombre}}</h4>
-                        </a>
-                        <p class="price"> $69.99</p>
-                        <a class="view-link shutter" href="#">
-                            <i class=""></i>Agregar al carrito</a>
-                    </div>
-                    <!-- End of /.products -->
-                </div>
-                <!-- End Of /.Col-md-3 -->
-                <div class="col-md-3">
-                    <div class="products">
-                        <a href="single-product.html">
-                                <img src="{{$medi6->imagen}}" alt="">
-                            </a>
-                        <a href="single-product.html">
-                            <h4>{{$medi6->nombre}}</h4>
-                        </a>
-                        <p class="price"> $69.99</p>
-                        <a class="view-link shutter" href="#">
-                            <i class=""></i>Agregar al carrito</a>
-                    </div>
-                    <!-- End of /.products -->
-                </div>
-                <!-- End Of /.Col-md-3 -->
-                <div class="col-md-3">
-                    <div class="products">
-                        <a href="single-product.html">
-                                <img src="{{$medi7->imagen}}" alt="">
-                            </a>
-                        <a href="single-product.html">
-                            <h4>{{$medi7->nombre}}</h4>
-                        </a>
-                        <p class="price"> $69.99</p>
-                        <a class="view-link shutter" href="#">
-                            <i class=""></i>Agregar al carrito</a>
-                    </div>
-                    <!-- End of /.products -->
-                </div>
-                <!-- End Of /.Col-md-3 -->
-                <div class="col-md-3">
-                    <div class="products">
-                        <a href="single-product.html">
-                                <img src="{{$medi8->imagen}}" alt="">
-                            </a>
-                        <a href="single-product.html">
-                            <h4>{{$medi8->nombre}}</h4>
-                        </a>
-                        <p class="price"> $69.99</p>
-                        <div>
-                            <a class="view-link shutter" href="#">
-                                <i class=""></i>Agregar al carrito</a>
-                        </div>
-                    </div>
-                    <!-- End of /.products -->
-                </div>
-                <!-- End Of /.Col-md-3 -->
-            </div>
-            <!-- End of /.row -->
-        </div>
-        <!-- End of /.container -->
-    </section>
-    <!-- End of Section -->
-
-
-
-
-    <!-- CALL TO ACTION Start
-    ================================================== -->
-
-    <section id="call-to-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block">
-                        <div class="block-heading">
-                            <h2>Los mejores productos</h2>
-                        </div>
-                    </div>
-                    <!-- End of /.block -->
-                    <div id="owl-example" class="owl-carousel">
-                        <div> <img src="assets/images/company-1.png" alt=""></div>
-                        <div> <img src="assets/images/company-2.png" alt=""></div>
-                        <div> <img src="assets/images/company-3.png" alt=""></div>
-                        <div> <img src="assets/images/company-4.png" alt=""></div>
-                        <div> <img src="assets/images/company-5.png" alt=""></div>
-                        <div> <img src="assets/images/company-6.png" alt=""></div>
-                        <div> <img src="assets/images/company-8.png" alt=""></div>
-                        <div> <img src="assets/images/company-9.png" alt=""></div>
-                    </div>
-                    <!-- End of /.Owl-Slider -->
-                </div>
-                <!-- End of /.col-md-12 -->
-            </div>
-            <!-- End Of /.Row -->
+            <!-- End Of /.row -->
         </div>
         <!-- End Of /.Container -->
-    </section>
-    <!-- End of Section -->
 
+
+        <!-- MODAL Start
+    ================================================== -->
+
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">Introduce Yourself</h4>
+                    </div>
+                    <div class="modal-body clearfix">
+
+                        <form action="#" method="post" id="create-account_form" class="std">
+                            <fieldset>
+                                <h3>Create your account</h3>
+                                <div class="form_content clearfix">
+                                    <h4>Enter your e-mail address to create an account.</h4>
+                                    <p class="text">
+                                        <label for="email_create">E-mail address</label>
+                                        <span>
+                                            <input placeholder="E-mail address" type="text" id="email_create"
+                                                name="email_create" value="" class="account_input">
+                                        </span>
+                                    </p>
+                                    <p class="submit">
+                                        <button class="btn btn-primary">Create Your Account</button>
+                                    </p>
+                                </div>
+                            </fieldset>
+                        </form>
+                        <form action="" method="post" id="login_form" class="std">
+                            <fieldset>
+                                <h3>Already registered?</h3>
+                                <div class="form_content clearfix">
+                                    <p class="text">
+                                        <label for="email">E-mail address</label>
+                                        <span><input placeholder="E-mail address" type="text" id="email" name="email"
+                                                value="" class="account_input"></span>
+                                    </p>
+                                    <p class="text">
+                                        <label for="passwd">Password</label>
+                                        <span><input placeholder="Password" type="password" id="passwd" name="passwd"
+                                                value="" class="account_input"></span>
+                                    </p>
+                                    <p class="lost_password">
+                                        <a href="#popab-password-reset" class="popab-password-link">Forgot your
+                                            password?</a>
+                                    </p>
+                                    <p class="submit">
+                                        <button class="btn btn-success">Log in</button>
+                                    </p>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of /Section -->
+
+
+
+    <section id="single-product">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="single-product-img">
+                        <img src="images/single-product.png" alt="">
+                    </div>
+
+                </div>
+                <!-- End of /.col-md-5 -->
+                <div class="col-md-4">
+                    <div class="block">
+                        <div class="product-des">
+                            <h4>Claritas est etiam</h4>
+                            <p class="price">$380</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, culpa, esse, magni omnis blanditiis unde vitae in nobis fuga optio numquam at ipsum impedit perspiciatis quia rem consequatur recusandae repudiandae provident
+                                nemo voluptatibus corporis ab id iste pariatur ipsam vero porro eos eaque rerum nam dolorum mollitia adipisci. Quaerat, ullam!
+                            </p>
+                            <a class="view-link" href="#"><i class="fa fa-plus-circle"></i>Add To Cart</a>
+                        </div>
+                        <!-- End of /.product-des -->
+                    </div>
+                    <!-- End of /.block -->
+                </div>
+                <!-- End of /.col-md-4 -->
+                <div class="col-md-3">
+                    <div class="blog-sidebar">
+                        <div class="block">
+                            <h4 class="top-catagori-heading">Latest Food Items</h4>
+                            <ul class="media-list">
+                                <li class="media">
+                                    <a class="pull-left" href="#">
+                                        <img class="media-object" src="images/post-img.png" alt="...">
+                                    </a>
+                                    <div class="media-body">
+                                        <a href="" class="media-heading">Lamb leg roast
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </a>
+                                    </div>
+                                </li>
+                                <!-- End of /.media -->
+                                <li class="media">
+                                    <a class="pull-left" href="#">
+                                        <img class="media-object" src="images/post-img-2.png" alt="...">
+                                    </a>
+                                    <div class="media-body">
+                                        <a href="" class="media-heading"> Lamingtons
+                                            <p>Lorem ipsum dolor.</p>
+                                        </a>
+                                    </div>
+                                </li>
+                                <!-- End of /.media -->
+                                <li class="media">
+                                    <a class="pull-left" href="#">
+                                        <img class="media-object" src="images/post-img-3.png" alt="...">
+                                    </a>
+                                    <div class="media-body">
+                                        <a href="" class="media-heading">
+                                            Anzac Salad
+                                            <p>Lorem ipsum dolor sit.</p>
+
+                                        </a>
+                                    </div>
+                                </li>
+                                <!-- End of /.media -->
+                                <li class="media">
+                                    <a class="pull-left" href="#">
+                                        <img class="media-object" src="images/post-img-3.png" alt="...">
+                                    </a>
+                                    <div class="media-body">
+                                        <a href="" class="media-heading">
+                                            Anzac Salad
+                                            <p>Lorem ipsum dolor sit.</p>
+
+                                        </a>
+                                    </div>
+                                </li>
+                                <!-- End of /.media -->
+                            </ul>
+                            <!-- End of /.media-list -->
+                        </div>
+                        <!-- End of /.block -->
+
+                    </div>
+                    <!-- End of /.blog-sidebar -->
+
+                </div>
+                <!-- End of /.col-md-3 -->
+            </div>
+            <!-- End of /.row -->
+            <div class="row">
+                <div class="col-md-9">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#home" data-toggle="tab">More Info</a></li>
+                        <li><a href="#profile" data-toggle="tab">Comments</a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="home">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eligendi quidem vel sit expedita nam sint non explicabo magni totam?</p>
+                        </div>
+                        <div class="tab-pane" id="profile">
+                            <p>No customer comments for the moment.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of /.col-md-9 -->
+                <div class="col-md-3">
+                    <div class="blog-sidebar">
+                        <div class="block">
+                            <img src="images/food-ad.png" alt="">
+                        </div>
+                        <!-- End of /.block -->
+                    </div>
+                    <!-- End of /.blog-sidebar -->
+                </div>
+                <!-- End of /.col-md-3 -->
+            </div>
+            <!-- End of /.row -->
+        </div>
+        <!-- End of /.Container -->
+    </section>
+    <!-- End of /.Single-product -->
 
     <!-- FOOTER Start
     ================================================== -->
