@@ -20,63 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f16c3126-0f9f-4c10-a477-fd859843a53a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/nivo-slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/owl.carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/owl.theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/199px-Noodles_&amp;_Company_Logo_svg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/American-Express.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Aspirina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Destacados.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Domicilio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Logooo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Maestro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/PayPal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Promocion1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Promocion2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Promocion3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Temporada.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Visa-Electron.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Visa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/comapny-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/company-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/company-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/company-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/company-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/company-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/company-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/company-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/company-9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/descuento.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/descuento.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/farmacia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/food-ad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/footer-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/header.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/kewledits.weebly (120).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/large_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/large_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/titleBorder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.nicescroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.nivo.slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.scrollUp.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/product.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conocenos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/destacados.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/envios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ofertas.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/single-product.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temporada.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/img.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,11 +42,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/css" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Documents\GitHub\Landing-Famacia\assets\css" />
+      <recent name="C:\Users\hp\Documents\GitHub\Landing-Famacia\assets" />
+      <recent name="C:\Users\hp\Documents\GitHub\Landing-Famacia" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Documents\GitHub\Landing-Famacia\assets\css" />
+      <recent name="C:\Users\hp\Documents\GitHub\Landing-Famacia\assets" />
       <recent name="C:\Users\hp\Documents\GitHub\Landing-Famacia" />
     </key>
   </component>
@@ -115,7 +67,7 @@
       <updated>1651172112597</updated>
       <workItem from="1651172113946" duration="732000" />
       <workItem from="1651453433591" duration="801000" />
-      <workItem from="1651512639627" duration="749000" />
+      <workItem from="1651512639627" duration="1690000" />
     </task>
     <servers />
   </component>
@@ -135,10 +87,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1651172176591">
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1651516340955">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1651172176591" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1651516340955" />
     <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1651454988043">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
