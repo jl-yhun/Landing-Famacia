@@ -374,11 +374,11 @@ span.middot {
 }
 
 .bg-color,
-.bg-color #header-wrap { background-color: #1ABC9C !important; }
+.bg-color #header-wrap { background-color: #0F6458 !important; }
 
-.color { color: #1ABC9C !important; }
+.color { color: #0F6458 !important; }
 
-.border-color { border-color: #1ABC9C !important; }
+.border-color { border-color: #0F6458 !important; }
 
 .ls0 { letter-spacing: 0px !important; }
 
