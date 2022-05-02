@@ -372,7 +372,7 @@ span.middot {
 .mx-auto {
 	float: none !important;
 }
-
+.font-display { font-family: 'Playfair Display', serif !important; }
 .bg-color,
 .bg-color #header-wrap { background-color: #0F6458 !important; }
 
