@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f16c3126-0f9f-4c10-a477-fd859843a53a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/img.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/covid-care.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/covid-care.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-covid-care.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo-covid-care.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
