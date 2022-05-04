@@ -20,9 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f16c3126-0f9f-4c10-a477-fd859843a53a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,6 +96,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1651454988043" />
+    <state x="348" y="28" width="585" height="624" key="find.popup" timestamp="1651687463889">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="348" y="28" width="585" height="624" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1651687463889" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1651601514485">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
