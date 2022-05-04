@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f16c3126-0f9f-4c10-a477-fd859843a53a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/colors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/colors.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/colors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-covid-care.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo-covid-care.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,9 +35,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
   <component name="ProjectId" id="28RGibVrK47Zykq7Zm7i1nQxkfW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,10 +42,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PLANTILLAS/CANVAS/HTML/demo-app-landing.html" />
-    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -59,10 +53,10 @@
       <recent name="C:\Users\hp\Documents\GitHub\Landing-Famacia" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Documents\GitHub\Landing-Famacia" />
       <recent name="C:\Users\hp\Documents\GitHub\Landing-Famacia\assets\images\logos" />
       <recent name="C:\Users\hp\Documents\GitHub\Landing-Famacia\assets\css" />
       <recent name="C:\Users\hp\Documents\GitHub\Landing-Famacia\assets" />
-      <recent name="C:\Users\hp\Documents\GitHub\Landing-Famacia" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -76,7 +70,6 @@
       <workItem from="1651172113946" duration="732000" />
       <workItem from="1651453433591" duration="801000" />
       <workItem from="1651512639627" duration="1690000" />
-      <workItem from="1651609011470" duration="6140000" />
     </task>
     <servers />
   </component>
@@ -93,5 +86,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1651516340955">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1651516340955" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1651454988043">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1651454988043" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1651601514485">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1651601514485" />
   </component>
 </project>
