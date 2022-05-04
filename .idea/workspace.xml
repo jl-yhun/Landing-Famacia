@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f16c3126-0f9f-4c10-a477-fd859843a53a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-covid-care.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo-covid-care.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +34,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28RGibVrK47Zykq7Zm7i1nQxkfW" />
   <component name="ProjectViewState">
@@ -71,7 +70,6 @@
       <workItem from="1651172113946" duration="732000" />
       <workItem from="1651453433591" duration="801000" />
       <workItem from="1651512639627" duration="1690000" />
-      <workItem from="1651678592960" duration="237000" />
     </task>
     <servers />
   </component>
@@ -88,6 +86,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1651516340955">
