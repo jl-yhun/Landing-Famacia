@@ -375,9 +375,12 @@ span.middot {
 .font-display { font-family: 'Playfair Display', serif !important; }
 .bg-color,
 .bg-color #header-wrap { background-color: #0F6458 !important; }
+.bg-color-new { background-color: #00cec8 !important; }
 
 .color { color: #0F6458 !important; }
-
+.color-text1{
+	color: #00cec8!important;
+}
 .border-color { border-color: #0F6458 !important; }
 
 .ls0 { letter-spacing: 0px !important; }
@@ -3689,7 +3692,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 
 .menu-item:hover > .menu-link,
 .menu-item.current > .menu-link {
-	color: #1ABC9C;
+	color: #00cec8;
 }
 
 .menu-item.sub-menu > .menu-link > div { }
