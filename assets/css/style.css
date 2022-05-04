@@ -93,12 +93,21 @@
 /* ----------------------------------------------------------------
 	Bootstrap Adjustments
 -----------------------------------------------------------------*/
+@import "fonts.css";
 
+.bicubik{
+	font-family: bicubik;
+}
+.montserrat{
+	font-family: montserrat;
+}
+.montserrat-bold{
+	font-family: montserrat-bold;
+}
 
 @media (min-width: 1440px) {
 	.container { max-width: 1320px; }
 }
-
 
 /* ----------------------------------------------------------------
 	Basic
