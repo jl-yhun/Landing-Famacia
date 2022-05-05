@@ -20,9 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f16c3126-0f9f-4c10-a477-fd859843a53a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/css/fonts/webfont-medical-icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/fonts/webfont-medical-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/fonts/webfont-medical-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/fonts/webfont-medical-icons.woff" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FAQs.html" beforeDir="false" afterPath="$PROJECT_DIR$/FAQs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/medical-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/medical-icons.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,21 +50,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/css/fonts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\erik_\PhpstormProjects\Landing-Famacia\assets\css\fonts" />
+      <recent name="C:\Users\erik_\PhpstormProjects\Landing-Famacia\assets\css" />
+      <recent name="C:\Users\hp\Documents\GitHub\Landing-Famacia" />
+      <recent name="C:\Users\hp\Documents\GitHub\Landing-Famacia\assets\images\logos" />
+      <recent name="C:\Users\hp\Documents\GitHub\Landing-Famacia\assets\css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hp\Documents\GitHub\Landing-Famacia\assets\css" />
       <recent name="C:\Users\hp\Documents\GitHub\Landing-Famacia\assets" />
       <recent name="C:\Users\hp\Documents\GitHub\Landing-Famacia" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hp\Documents\GitHub\Landing-Famacia" />
-      <recent name="C:\Users\hp\Documents\GitHub\Landing-Famacia\assets\images\logos" />
-      <recent name="C:\Users\hp\Documents\GitHub\Landing-Famacia\assets\css" />
-      <recent name="C:\Users\hp\Documents\GitHub\Landing-Famacia\assets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -91,19 +95,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1651516340955">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1651516340955" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1651454988043">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1651454988043" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1651601514485">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1651601514485" />
   </component>
 </project>
