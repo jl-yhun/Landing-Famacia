@@ -26,112 +26,191 @@
     <link rel="stylesheet" href="assets/css/custom.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="assets/css/colors.php?color=0F6458" type="text/css" />
-
+    <link rel="stylesheet" href="assets/css/medical-icons.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/medical.css" type="text/css" />
     <!-- Document Title
     ============================================= -->
-    <title>Covid Care | Canvas</title>
+    <title>FARMACIA EL 45</title>
+    <link href="assets/images/logos/logo%201.png" rel="icon">
 
 </head>
 
-<body class="stretched">
+<body class="stretched page-transition" data-loader-html="<div id='css3-spinner-svg-pulse-wrapper'><svg id='css3-spinner-svg-pulse' version='1.2' height='210' width='550' xmlns='https://www.w3.org/2000/svg' viewport='0 0 60 60' xmlns:xlink='https://www.w3.org/1999/xlink'><path id='css3-spinner-pulse' stroke='#00cec8' fill='none' stroke-width='2' stroke-linejoin='round' d='M0,90L250,90Q257,60 262,87T267,95 270,88 273,92t6,35 7,-60T290,127 297,107s2,-11 10,-10 1,1 8,-10T319,95c6,4 8,-6 10,-17s2,10 9,11h210' /></svg></div>">
 
-<!-- Document Wrapper
-============================================= -->
 <div id="wrapper" class="clearfix">
 
-    <!-- Header
-    ============================================= -->
-    <header id="header" class="">
-        <div id="header-wrap">
-            <div class="container">
-                <div class="header-row">
+    <header id="header" class="sticky-heade" data-sticky-class="not-dark" data-responsive-class="not-dark" data-sticky-logo-height="80" data-sticky-menu-padding="29">
+        <div id="header-wrap" >
+            <div class="container" style="margin-top: 15px ; margin-bottom: 5px">
+                <div class="header-row justify-content-lg-between">
 
-                    <!-- Logo
-                    ============================================= -->
-                    <div id="logo">
-                        <a href="#" class="standard-logo">
-                            <img alt="Logo" src="assets/images/logos/G&P.svg" class="h-90px h-lg-90px w-75" style=" border-radius: 10px;"/>
-                        </a>
-                    </div><!-- #logo end -->
-
-                    <!-- Primary Menu Mobile Trigger
-                    ============================================= -->
+                    <div id="logo" class="col-auto order-lg-2 me-lg-0 px-0">
+                        <a href="index.html" class="standard-logo" data-dark-logo="assets/images/logos/logo%204.png"><img src="assets/images/logos/logo%204.png" alt="FARMACIA EL 45 LOGO"></a>
+                        <a href="index.html" class="retina-logo" data-dark-logo="assets/images/logos/logo%204.png"><img src="assets/images/logos/logo%204.png" alt="FARMACIA EL 45 LOGO"></a>
+                    </div>
                     <div id="primary-menu-trigger">
                         <svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
                     </div>
-
-                    <!-- Header Buttons
-                    ============================================= -->
-                    <!--						<div class="header-misc">-->
-                    <!--							<a href="#" class="button rounded-pill bg-color-2 button-light text-dark ls0 font-weight-medium m-0">Register</a>-->
-                    <!--							<a href="#" class="button rounded-pill ls0 font-weight-medium my-0 ml-2 d-none d-sm-flex">Download App</a>-->
-                    <!--						</div>-->
-
-                    <!-- Primary Navigation
-                    ============================================= -->
-                    <nav class="primary-menu">
-
-                        <ul class="menu-container">
-                            <li class="menu-item"><a class="menu-link" href="demo-covid-care.html"><div>Inicio</div></a></li>
-                            <li class="menu-item"><a class="menu-link" href="acercade.html"><div>Acerca de nosotros</div></a></li>
-                            <li class="menu-item"><a class="menu-link" href="contacto.html"><div>Contacto</div></a></li>
+                    <nav class="primary-menu not-dark col-lg-5 order-lg-3 px-0">
+                        <ul class="menu-container justify-content-lg-end one-page-menu" data-easing="easeInOutExpo" data-speed="1250" data-offset="160">
+                            <li class="menu-item"><a class="menu-link montserrat-bold" href="index.html" style="font-size: 17px"><div><b>Inicio</b></div></a></li>
+                            <li class="menu-item current"><a class="menu-link montserrat-bold" href="FAQs.html" style="font-size: 17px"><div><b>FAQs</b></div></a></li>
+                            <li class="menu-item"><a class="menu-link montserrat-bold" href="contacto.html" style="font-size: 17px"><div><b>Contáctanos</b></div></a></li>
                         </ul>
-
-                    </nav><!-- #primary-menu end -->
-
+                    </nav>
                 </div>
             </div>
         </div>
         <div class="header-wrap-clone"></div>
-    </header><!-- #header end -->
-    <!-- Slider / Hero
-   ============================================= -->
-    <div id="slider" class="slider-element dark py-0" style="background-size: cover; background-image: url('assets/images/page-title/contact.jpg'); background-position: center center; background-repeat: no-repeat;">
-            <div class="container">
-                <div class="row text-center py-5 min-vh-md-75 justify-content-center align-items-center">
-                    <div class="col-lg-6">
-                        <h5 class="mb-1 text-uppercase ls3 text-white-50 font-body">Ponte en contacto</h5>
-                        <h2 class="display-3 fw-bolder ls3 font-display mb-5">Contactanos</h2>
-                    </div>
+    </header>
+    <div id="slider" class="slider-element dark py-0" style="height: 13rem !important;background-size: cover; background-image: url('assets/images/f8.jpg'); background-position: center center; background-repeat: no-repeat;">
+        <div class="container">
+            <div class="row text-center py-5 min-vh-md-25 justify-content-center align-items-center" >
+                <div class="col-lg-6 heading-block border-bottom-0 center mx-auto mb-4 my-4"  style="background-color: rgba(255,255,255,.8); border-radius: 19px ">
+                    <h5 class="mb-1 text-uppercase ls3 color-text1 montserrat">Comunicate con nosotros.</h5>
+                    <h2 class="display-3 fw-bolder ls3 color-text1 montserrat-bold ">Mandanos un correo</h2>
                 </div>
             </div>
         </div>
+    </div>
 
     <!-- Content
     ============================================= -->
+    <section id="content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="clear"></div>
 
-    <div class="content-wrap">
+                <div class="container comment-wrap">
 
-            <div class="container clearfix">
+                    <div class="row align-items-stretch col-mb-50 mb-0" id="contactanos">
+                        <!-- Contact Form
+                        ============================================= -->
+                        <div class="col-lg-6">
 
-                <div class="row justify-content-around">
-                    <div class="col-lg-5">
-                        <h3 class="display-3 color fw-normal font-display mb-5">Contactanos</h3>
+                            <div class="fancy-title title-border">
+                                <h1 class="color-text1 montserrat-bold">Envíanos un correo</h1>
+                            </div>
 
-                        <p class="mb-5">Tienes alguna duda, sugerencia, comentario ponte en contacto con nosotros</p>
+                            <div class="form-widget">
 
-                        <div class="clear"></div>
+                                <div class="form-result"></div>
 
-                       <div class="feature-box fbox-sm mb-5">
-                       <div class="fbox-icon">
-                       <i class="bg-color-50 color icon-email3"></i>
-                       </div>
-                       <div class="fbox-content">
-                       <h3 class="nott text-larger fw-normal mb-2"><a href="mailto:noreply@canvas.com">noreply@farmaciasgyp.com.mx</a></h3>
-                       </div>
-                       </div>
-                       </div>
-                       </div>
-                       </div>
-                       </div>
+                                <form class="mb-0" id="template-contactform" name="template-contactform" action="include/form.php" method="post">
+
+                                    <div class="form-process">
+                                        <div class="css3-spinner">
+                                            <div class="css3-spinner-scaler"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-4 form-group">
+                                            <label class="montserrat" for="nombre">Nombre <small>*</small></label>
+                                            <input type="text" id="nombre" name="nombre" value="" class="montserrat sm-form-control required" />
+                                        </div>
+
+                                        <div class="col-md-4 form-group">
+                                            <label class="montserrat" for="correo">Correo <small>*</small></label>
+                                            <input type="email" id="correo" name="correo" value="" class="montserrat required email sm-form-control" />
+                                        </div>
+
+                                        <div class="col-md-4 form-group">
+                                            <label class="montserrat" for="telefono">Telefono</label>
+                                            <input type="text" id="telefono" name="telefono" value="" class="montserrat sm-form-control" />
+                                        </div>
+
+                                        <div class="w-100"></div>
+
+                                        <div class="col-md-12 form-group">
+                                            <label class="montserrat" for="asunto">Asunto <small>*</small></label>
+                                            <input type="text" id="asunto" name="asunto" value="" class="montserrat required sm-form-control" />
+                                        </div>
 
 
-    <!-- #content end -->
+                                        <div class="w-100"></div>
+
+                                        <div class="col-12 form-group">
+                                            <label class="montserrat" for="mensaje">Mensaje <small>*</small></label>
+                                            <textarea class="montserrat required sm-form-control" id="mensaje" name="mensaje" rows="6" cols="30"></textarea>
+                                        </div>
+
+                                        <div class="col-12 form-group">
+                                            <button name="submit" type="submit" id="submit-button" tabindex="5" value="Submit" class="montserrat button button-3d m-0">Enviar correo</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div><!-- Contact Form End -->
+
+                        <!-- Google Map
+                        ============================================= -->
+                        <div class="col-lg-6 min-vh-50">
+                            <iframe data-animate="fadeInRight" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d469.3218261146945!2d-98.97468561799188!3d19.77322006443201!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1651527197918!5m2!1ses-419!2smx" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div><!-- Google Map End -->
+                    </div>
+
+                    <!-- Contact Info
+                    ============================================= -->
+                    <div class="row col-mb-50">
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="feature-box fbox-center fbox-bg fbox-plain">
+                                <div class="fbox-icon">
+                                    <a href="https://t.me/farmaciael45" title="Telegrameame" target="_blank"><i class="icon-telegram-plane"></i></a>
+                                </div>
+                                <div class="fbox-content">
+                                    <h3 class="montserrat" >Cotiza tus medicamentos:<span class="subtitle">@farmaciael45</span></h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="feature-box fbox-center fbox-bg fbox-plain">
+                                <div class="fbox-icon">
+                                    <a href="tel:5583275037"><i class="icon-phone3"></i></a>
+                                </div>
+                                <div class="fbox-content">
+                                    <h3 class="montserrat">Cotiza tus medicamentos: <span class="subtitle">(55)8327 5037</span></h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="feature-box fbox-center fbox-bg fbox-plain">
+                                <div class="fbox-icon">
+                                    <a href="https://web.facebook.com/farmaciael45" target="_blank"><i class="icon-facebook"></i></a>
+                                </div>
+                                <div class="fbox-content">
+                                    <h3 class="montserrat">Siguenos en Facebook:<span class="subtitle">Farmacia el 45</span></h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="feature-box fbox-center fbox-bg fbox-plain">
+                                <div class="fbox-icon">
+                                    <a href="https://www.instagram.com/farmacia_el_45/" target="_blank"><i class="icon-instagram"></i></a>
+                                </div>
+                                <div class="fbox-content">
+                                    <h3 class="montserrat">Siguenos en Instagram<span class="subtitle">@farmacia_el45</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- Contact Info End -->
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
 
     <!-- Footer
     ============================================= -->
-    <footer id="footer" class="dark bg-color border-top-0" style="background: url('assets/images/illustration/footer-bg.svg') repeat center center / contain;">
+    <footer id="footer" class="dark bg-color-new border-top-0" style="background: url('assets/images/illustration/bg-pattern.svg') no-repeat">
         <div class="container">
 
             <!-- Footer Widgets
@@ -140,17 +219,16 @@
 
                 <div class="row justify-content-center">
                     <div class="col-md-7 mb-3 text-center">
-                        <h3 class="display-3 fw-normal font-display mb-0 text-white">G&P FARMACIAS</h3>
+                        <h3 class="display-3 fw-normal montserrat-bold mb-0 text-white">FARMACIA EL 45</h3>
+                        <h5 class="montserrat">Entregas a Domicilio.</h5>
+                        <hr>
                     </div>
-                    <div class="w-100 clear line"></div>
                     <div class="col-lg-8">
                         <div class="widget clearfix">
                             <div class="row col-mb-30">
                                 <div class="col-lg-6 col-6 widget_links">
                                     <ul>
-                                        <li><a href="#">Inicio</a></li>
-                                        <li><a href="{{ route('acercade') }}">Acerca de nosotros</a></li>
-                                        <li><a href="{{ route('contacto') }}">Contacto</a></li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -163,12 +241,24 @@
 
                             <div class="row">
                                 <div class="col-12 mb-3">
-                                    <small>Escribenos:</small>
-                                    <h4 class="h4 text-smaller">noreply@farmaciasgyp.com.mx</h4>
+                                    <small class="montserrat-bold text-white">Comunicate con nosotros:</small>
+                                    <br>
+                                    <a href="mailto:el45farmacia@gmail.com" role="link" target="_blank">
+                                        <i class="icon-email text-white" style="margin: 3px"></i>
+                                    </a>
+                                    <a href="https://web.facebook.com/farmaciael45" target="_blank">
+                                        <i class="icon-facebook-f text-white" style="margin: 3px"></i>
+                                    </a>
+                                    <a href="https://t.me/farmaciael45" title="Telegrameame" target="_blank">
+                                        <i style="margin: 3px" class="icon-telegram-plane text-white"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/farmacia_el_45/" target="_blank">
+                                        <i style="margin: 3px" class="icon-instagram text-white"></i>
+                                    </a>
                                 </div>
 
-                                <div class="col-12 mt-0 text-white-50 text-smaller">
-                                    All Rights Reserved <br>&copy; 2020 by SemiColonWeb<br>
+                                <div class="col-12 mt-0 text-smaller montserrat-bold text-white">
+                                    Nos encontramos en: <br><i class="icon-location text-white"></i> Calle Santa Ana No.8 Los Reyes Acozac<br>
                                 </div>
                             </div>
 
