@@ -20,12 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f16c3126-0f9f-4c10-a477-fd859843a53a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/fonts/webfont-medical-icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/fonts/webfont-medical-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/fonts/webfont-medical-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/fonts/webfont-medical-icons.woff" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/medical-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/medical-icons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FAQs.html" beforeDir="false" afterPath="$PROJECT_DIR$/FAQs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacto.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/css/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spvac-farmacias-gyp" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
